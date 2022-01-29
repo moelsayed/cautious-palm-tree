@@ -10,11 +10,9 @@ on:
       - '*'
   pull_request:
     branches:
-      - 'develop'
-  schedule:
-    - cron: '*/15 * * * *'
+      - 'main'
 jobs:
-  say-hello:
+  event-trigger:
     runs-on: ubuntu-latest
     steps:
       - name: Event
