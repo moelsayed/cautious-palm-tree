@@ -12,7 +12,7 @@ on:
     branches:
       - 'main'
 jobs:
-  say-hello:
+  event-trigger:
     runs-on: ubuntu-latest
     steps:
       - name: Event
